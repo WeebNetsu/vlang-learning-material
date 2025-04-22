@@ -10,6 +10,13 @@ fn main() {
 	b, c := sum_v2(10, 5)
 	println(b)
 	println(c)
+
+	// to ignore a value returned by a function, use _
+
+	d, _ := sum_v2(9, 10)
+
+	println(d)
+	// println(_) NOTE that this won't work because _ is used to discard the value and is not a variable
 }
 
 // simple function

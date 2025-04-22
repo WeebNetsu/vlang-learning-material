@@ -2,7 +2,7 @@
 INIT PROJECT:
 v init - if already inside a folder
 v new project - to create a new folder
-v new project web - for a website template
+v new --web project - for a website template (deprecated?)
 
 RUN PROJECT
 
